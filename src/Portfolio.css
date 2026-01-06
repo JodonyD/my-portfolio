@@ -180,3 +180,14 @@ h2 {
 html {
   scroll-behavior: smooth;
 }
+
+/*for phone screens */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
