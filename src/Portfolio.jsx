@@ -56,7 +56,8 @@ function Portfolio() {
                 <span className="skill-badge">React</span>
                 <span className="skill-badge">JavaScript</span>
                 <span className="skill-badge">Node.js/Next.js</span>
-                <span className="skill-badge">HTML/CSS</span>
+                <span className="skill-badge">CSS/BootStrap</span>
+                <span className="skill-badge">HTML/PHP/MySQL</span>
               </div>
             </div>
             
