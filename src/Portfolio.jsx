@@ -56,7 +56,7 @@ function Portfolio() {
                 <span className="skill-badge">React</span>
                 <span className="skill-badge">JavaScript</span>
                 <span className="skill-badge">Node.js/Next.js</span>
-                <span className="skill-badge">CSS/BootStrap</span>
+                <span className="skill-badge">CSS/BootStrap/Tailwind</span>
                 <span className="skill-badge">HTML/PHP</span>
                 <span className="skill-badge">MySQL</span>
               </div>
@@ -82,7 +82,7 @@ function Portfolio() {
             {/* Project 1 - Blaze Beauty School */}
             <div className="col-md-6 col-lg-4">
               <a 
-                href="https://blazebeauty.byethost13.com/index.php?i=1" 
+                href="https://blazebeautyschool.netlify.app/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-decoration-none"
@@ -114,7 +114,7 @@ function Portfolio() {
             {/* Project 2 - JRD WebCreations */}
             <div className="col-md-6 col-lg-4">
               <a 
-                href="https://jrdwebcreation.netlify.app/" 
+                href="https://jrdwebcreations.netlify.app//" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-decoration-none"
@@ -148,7 +148,7 @@ function Portfolio() {
             {/* Project 3 - Oomas */}
             <div className="col-md-6 col-lg-4">
               <a 
-                href="https://jodonyd.github.io/oomas/" 
+                href="https://oomasjamaicangoodies.netlify.app/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-decoration-none"
@@ -209,68 +209,6 @@ function Portfolio() {
               </a>
             </div>
 
-            
-            {/* Project 5 - Notes App */}
-            <div className="col-md-6 col-lg-4">
-              <a 
-                href="https://jodonyd.github.io/notesApp/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-decoration-none"
-              >
-                <div className="project-card">
-                  <div className="d-flex justify-content-between align-items-start mb-3">
-                    <h4 className="fw-bold text-dark">Notes App</h4>
-                    <i className="bi bi-box-arrow-up-right text-secondary"></i>
-                  </div>
-                  <p className="text-secondary"> {/* Notes App description */}
-                    A dynamic web-based note-taking application that uses browser local storage to store notes.
-                  </p>
-                  <div className="mt-3">
-                    <span className="project-tech">HTML</span>
-                    <span className="project-tech">JavaScript</span>
-                    <span className="project-tech">CSS</span>
-                    <span className="project-tech">Local Storage</span>
-                    <span className="project-tech">Responsive</span>
-                  </div>
-                  <br></br>
-                  <a href="https://github.com/JodonyD/notesApp"
-                  target='_blank'
-                  rel="noopener noreferrer"
-                  className="text-decoration-none">
-                  <p className='btn btn-light btn-outline-secondary btn-small'>Source Code</p>
-                  </a>
-                </div>
-              </a>
-            </div>
-
-            {/* Project 6 - Simple Counter */}
-            <div className="col-md-6 col-lg-4">
-              
-                <div className="project-card">
-                  <div className="d-flex justify-content-between align-items-start mb-3">
-                    <h4 className="fw-bold text-dark">Simple Counter</h4>
-                    <i className="bi bi-box-arrow-up-right text-secondary"></i>
-                  </div>
-                  <p className="text-secondary"> {/* counter App description */}
-                    A basic web utility that allows users to increment, decrement, and reset a numerical count.
-                  </p>
-                  <div className="mt-3">
-                    <span className="project-tech">HTML</span>
-                    <span className="project-tech">JavaScript</span>
-                    <span className="project-tech">CSS with Bootstrap </span>
-                    <span className="project-tech">Responsive</span>
-                  </div>
-                  <br></br>
-                  <a href="https://github.com/JodonyD/counterapp"
-                  target='_blank'
-                  rel="noopener noreferrer"
-                  className="text-decoration-none">
-                  <p className='btn btn-light btn-outline-secondary btn-small'>Source Code</p>
-                  </a>
-                </div>
-            </div>
-
              {/* Project 7 - Zeta Jewellery */}
             <div className="col-md-6 col-lg-4">
               
@@ -297,34 +235,6 @@ function Portfolio() {
                   </a>
                 </div>
             </div>
-            
-             {/* Project 7 - PHP Job Board  */}
-            <div className="col-md-6 col-lg-4">
-              
-                <div className="project-card">
-                  <div className="d-flex justify-content-between align-items-start mb-3">
-                    <h4 className="fw-bold text-dark">Job Board</h4>
-                    <i className="bi bi-box-arrow-up-right text-secondary"></i>
-                  </div>
-                  <p className="text-secondary"> {/* zeta App description */}
-                    A simple job posting web application where persons can, post, edit, delete and apply fro jobs.
-                  </p>
-                  <div className="mt-3">
-                    <span className="project-tech">PHP</span>
-                    <span className="project-tech">MySQL</span>
-                    <span className="project-tech">CSS</span>
-                  </div>
-                  <br></br>
-                  <a href="https://github.com/JodonyD/php-job-board"
-                  target='_blank'
-                  rel="noopener noreferrer"
-                  className="text-decoration-none">
-                  <p className='btn btn-light btn-outline-secondary btn-small'>Source Code</p>
-                  </a>
-                </div>
-            </div>
-
-
           </div>
         </div>
       </section> {/* close project section */}
