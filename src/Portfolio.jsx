@@ -78,8 +78,40 @@ function Portfolio() {
         <div className="container">
           <h2 className="display-4 text-center fw-bold mb-5">Projects</h2>
           <div className="row g-4">
+
+            {/* Project 1 - St Thomas More Preparatory School */}
+            <div className="col-md-6 col-lg-4">
+              <a 
+                href="https://stthomasmorefamily.org/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-decoration-none"
+              >
+                <div className="project-card">
+                  <div className="d-flex justify-content-between align-items-start mb-3">
+                    <h4 className="fw-bold text-dark">St. Thomas More Preparatory School</h4>
+                    <i className="bi bi-box-arrow-up-right text-secondary"></i>
+                  </div>
+                  <p className="text-secondary"> { /* blaze beauty school*/}
+                   A React-based website for St. Thomas More Preparatory School, featuring multi-page routing, interactive event and photo galleries, GSAP animations, and a fully responsive, SEO-optimized design.
+                  </p>
+                  <div className="mt-3">
+                    <span className="project-tech">REACT</span>
+                    <span className="project-tech">TAILWIND CSS</span>
+                    <span className="project-tech">GSAP</span>
+                    <span className="project-tech">REACT ROUTER/LUCIDE REACT</span>
+                  </div>
+                  <br></br>
+                  <a href="https://github.com/JodonyD/sttmps" 
+                  target='_blank'
+                  rel="noopener noreferrer"
+                  className="text-decoration-none">
+                  <p className="btn btn-light btn-outline-secondary btn-small">Source Code</p></a>
+                </div>
+              </a>
+            </div>
             
-            {/* Project 1 - Blaze Beauty School */}
+            {/* Project 2 - Blaze Beauty School */}
             <div className="col-md-6 col-lg-4">
               <a 
                 href="https://blazebeautyschool.netlify.app/" 
