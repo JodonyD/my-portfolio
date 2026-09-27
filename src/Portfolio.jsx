@@ -143,10 +143,10 @@ function Portfolio() {
               </a>
             </div>
 
-            {/* Project 2 - JRD WebCreations */}
+            {/* Project 3 - JRD WebCreations */}
             <div className="col-md-6 col-lg-4">
               <a 
-                href="https://jrdwebcreations.netlify.app//" 
+                href="https://jrdwebcreation.netlify.app/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-decoration-none"
